@@ -2,7 +2,7 @@
 import dbConnect from "@/app/db/dbConnect";
 import { NextRequest,NextResponse } from "next/server";
 import Commnet from "@/app/db/models/comment"
-import Posts from "@/app/db/models/Post"
+import Posts from "@/app/db/models/post"
 import getSession from "@/app/action/getSession";
 dbConnect();
 
